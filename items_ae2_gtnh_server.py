@@ -21,7 +21,7 @@ st.title("GTNH - Applied Energistics Items Track")
 st_autorefresh(interval=900000, key="refresh_page")
 
 # Supabase Table
-supabase_table = "Items"
+supabase_table = "items"
 
 # Initialize connection.
 conn = st.connection("supabase",type=SupabaseConnection)
